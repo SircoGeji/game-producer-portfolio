@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+A modern interactive personal portfolio built with Next.js and Tailwind CSS.  
+Designed as a single-page experience with smooth navigation, animated sections.
 
-First, run the development server:
+## ✨ Features
+
+- Smooth scroll single-page layout
+- Section-based navigation (Hero, About, Experience, Skills, Projects, Contact)
+- Animated UI transitions using Framer Motion
+- Login-protected portfolio access page
+- Responsive design (mobile-first)
+- Custom timeline-based experience layout
+- Interactive contact section with icon-based links
+
+## 🧱 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+## 🚀 Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is optimized for deployment on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+/app – pages and routing
+/components – UI components (Navbar, Timeline, etc.)
+/styles – global styles (if used)
 
-## Deploy on Vercel
+## 🎯 Purpose
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project serves as a personal portfolio and CV showcase, demonstrating frontend engineering skills, UI design sensibility, and interaction-focused development.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📫 Contact
+
+[GitHub](https://github.com/SircoGeji)
+[LinkedIn](https://www.linkedin.com/in/mikhail-vagner/)
+[Email](mailto:mikhail.vagner.678@gmail.com)
